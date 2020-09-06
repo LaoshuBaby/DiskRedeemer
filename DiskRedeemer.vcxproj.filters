@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.c">
+      <Filter>源代码</Filter>
+    </ClCompile>
+    <ClCompile Include="DiskRedeemer_INIwriter.h">
+      <Filter>头文件\C</Filter>
+    </ClCompile>
+    <ClCompile Include="DiskRedeemer_OpenMP.h">
+      <Filter>头文件\C</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="源代码">
+      <UniqueIdentifier>{ae61ea83-dfd8-4de5-bac5-75b6d15596ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{0e39a131-9e47-4ecd-9768-bd04a12607ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\C">
+      <UniqueIdentifier>{c830ba6d-2bdb-4c1d-a50f-82d1c1e37551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\H">
+      <UniqueIdentifier>{ef87f6c6-1ac7-4fd6-abc0-d874ad49a7bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{82d0972f-4fe9-4799-8bf1-f7c52d9887a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OS.h">
+      <Filter>头文件\H</Filter>
+    </ClInclude>
+    <ClInclude Include="ComplierControl.h">
+      <Filter>头文件\H</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenariosControl.h">
+      <Filter>头文件\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Language.h">
+      <Filter>头文件\H</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
